@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 3.21rem;
+    background: #0ecf98;
+}
+.header .header-top{
+    width: 100%;
+    height: 1.05rem;
+    padding: 0.24rem 0.24rem 0  0;
+}
+.header .header-top i{
+    font-size: 0.4rem;
+    color: white;
+    display: block;
+    float: right;
+    margin-left: 0.2rem;
+}
+.header  .header-bottom{
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #000;
+    border-radius:50% ;
+    margin-left: 0.63rem;
+    margin-top: 0.2rem;
+    background-image: url(../img/touxiang.jpg);
+    background-size:cover;
+    background-position: 0.1rem -0.1rem;
+    float: left;
+    margin-right: 0.27rem;
+}
+.header p{
+    font-size: 0.34rem;
+    color: white;
+    margin-top: 0.24rem;
+
+}
+.header h1{
+    font-size: 0.34rem;
+    color: white;
+    margin-top: 0.2rem;
+    font-weight: normal;
+    float: left;
+
+}
+.header i{
+    display: block;
+    float: left;
+    font-size: 0.34rem;
+    color: white;
+    margin-top: 0.25rem;
+    margin-left: 0.2rem;
+}
+.banner{
+    width: 7rem;
+    height: 3rem;
+
+    margin: 0   0.24rem;
+    border-bottom: 0.07rem  solid #dcd9d9;
+    padding: 0 0.63rem;
+    position: relative;
+}
+.banner i{
+    font-size: 0.46rem;
+    color: #3d3d3d;
+    margin:  0   0.35rem;
+}
+.banner  .banner-center{
+    width: 100%;
+    height: 0.4rem;
+   
+    position: absolute;
+    top: 1.3rem;
+    left: 0;
+    padding: 0  0   0   0.8rem;
+}
+.banner  .banner-center a{
+    font-size: 0.2rem;
+    color: #616161;
+    display: block;
+    float: left;
+    margin-right: 0.68rem;
+}
+.banner  .banner-bottom{
+    width: 100%;
+    height: 0.4rem;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0  0   0   0.8rem;
+}
+.banner  .banner-bottom a{
+    font-size: 0.2rem;
+    color: #616161;
+    display: block;
+    float: left;
+    margin-right: 0.68rem;
+}
+.main{
+    width: 100%;
+    height: 0.62rem;
+    padding-left: 0.84rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+    line-height: 0.62rem;
+    color: #616161;
+}
+.main-bottom {
+    width: 7rem;
+    height: 2.2rem;
+    margin-left: 0.24rem;
+    border-top: 0.01rem solid #eeeeee;
+    border-bottom: 0.07rem solid #dcd9d9;
+    padding: 0  0  0  0.63rem;
+}
+.main-bottom i{
+    font-size: 0.5rem;
+    color: #3d3d3d;
+    margin:  0   0.35rem;
+}
+.main-top{
+    width: 100%;
+    height: 01rem;
+    float: left;
+    padding-left: 0.2rem;
+
+}
+.main-top a{
+    font-size: 0.2rem;
+    color: #616161;
+    display: block;
+    float: left;
+    margin-right: 0.73rem;
+}
+.main-top  p{
+    font-size: 0.16rem;
+    margin-top: 0.15rem;
+    color: #989898;
+    float: left;
+    margin-right: 0.54rem;
+}
+.footer{
+    width: 100%;
+    height: 1rem;
+    background: white;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow:0 0 0.3rem rgba(0,0,0,0.1);
+}
+.footer ul li{
+    width: 0.58rem;
+    height: 0.53rem;
+    background: white;
+    float: left;
+    margin-left: 0.57rem;
+    margin-right: 0.6rem;
+    list-style:none;
+    margin-top: 0.15rem;
+}
+
+.footer p{
+    font-size: 0.2rem;
+    float: left;
+    margin-left: 0.612rem;
+    margin-right: 0.739rem;
+    color: #757575;
+    margin-top: 0.05rem;
+}
+.footer ul li i{
+    font-size: 0.5rem;
+    display: block;
+    color: #878787;
+}
+.footer ul li:nth-child(4) i{
+    color: #0cb989;
+}
+.footer ul li:nth-child(2){
+    margin-top: 0.1rem;
+}

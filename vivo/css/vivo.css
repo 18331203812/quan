@@ -1,0 +1,550 @@
+/*
+* @Author: 50554
+* @Date:   2018-06-20 11:13:46
+* @Last Modified by:   50554
+* @Last Modified time: 2018-06-23 10:09:52
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #f7f7f5;
+}
+.daohang{
+	width: 100%;
+	height: 45px;
+	background: #2f2f2f;
+}
+.guanfang{
+	width: 100%;
+	height: 108px; 
+	/* background: red; */
+}
+.lianjie{
+	width: 100%;
+	height: 58px;
+	
+}
+.lunbotu{
+	width: 100%;
+	height: 452px;
+	position: relative;
+	
+}
+.daohangzhong{
+	width: 1300px;
+	height: 100%;
+	/* background:green ; */
+	margin: 0 auto;
+}
+.tu{
+	width:161px ;
+	height: 45px;
+	background: red;
+	float: left;
+}
+.tu2{
+	width: 679px;
+	height: 45px;
+	float: left;
+	margin-left: 162px;
+}
+.tu3{
+	width: 162px;
+	height: 45px;
+
+	float: right;
+	line-height: 45px;
+	font-size: 24px;
+}
+.tu3  i{
+	font-size: 24px;
+	color: white;
+	cursor: pointer;
+}
+.tu3  a{
+	text-align: right;
+	display: block;
+	float: right;
+}
+
+.tu img{
+	height: 45px;
+}
+.tu3 img{
+	height: 45px;
+}
+.tu3  i:hover{
+	color: #aaaaaa;
+}
+.tu2 a{
+	text-decoration: none;
+	line-height: 45px;
+	margin-right: 49px;
+	color: white;
+	font-size: 12px;
+}
+.tu2  a:hover{
+	color: #aaaaaa;
+}
+.tu2 .dian{
+	color: #aaaaaa;
+}
+.tu2.dian1{
+	margin: 0;
+}
+.guanfang .daohangzhong img{
+	margin-top: 32px ;
+	margin-left: 440px;
+}
+.lianjie .daohangzhong .green{
+	width: 452px;
+	height: 100%;
+	
+	margin-left: 457px;
+	float: left;
+}
+.lianjie .daohangzhong .red{
+	width: 144px;
+	height: 100%;
+	
+	float: right;
+}
+.lianjie .daohangzhong  a{
+     text-decoration: none;
+     line-height:58px ;
+     color: #6c7880;
+     font-size: 12px;
+     margin-right: 40px;
+}
+.lianjie .daohangzhong  a:hover{
+	color: #ff6700;
+}
+.lianjie .daohangzhong .red .p {
+	margin-right: 0;
+}
+.lunbotu .daohangzhong img{
+	width: 1300px;
+	height: 452px;
+}
+.chang{
+	width: 250px;
+	height: 5px;
+	
+	position: absolute;
+	left: 615px;
+	bottom: 15px;
+
+
+}
+.chang .cha{
+	width: 42px;
+	height: 2px;
+	background: white;
+	float: left;
+	margin-right: 10px;
+	margin-top: 3px;
+
+}
+.chang .x{
+	margin-right: 0;
+	height: 5px;
+	margin-top: 0;
+}
+.xiaosi{
+	width: 100%;
+	height: 152px;
+	
+}
+.xiaosi .daohangzhong img{
+ 	margin-top : 10px;
+ 	margin-right: 36.5px;
+}
+.xiaosi .daohangzhong img:hover{
+	transform:translateY(-3px);
+	box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+	transition:all ,.5s;
+}
+.xiaosi .daohangzhong .si{
+	margin-right: 0;
+}
+.ping{
+	width: 100%;
+	height: 46px;
+	
+	margin-top: 50px;
+}
+.ping .daohangzhong h1{
+	
+	font-size: 20px;
+	display: inline-block;
+
+	
+}
+
+.ping .daohangzhong {
+	text-align: center;
+	
+	
+	
+}
+.ping .daohangzhong a:hover{
+	color: #ff6700;
+}
+
+.ping .daohangzhong a{
+	font-size: 12px;
+	float: right;
+	text-decoration: none;
+	display: block;
+	margin-top: 8px;
+	margin-left: 26px;
+	color: black;
+}
+.ping .daohangzhong a:hover{
+	color:#ff6700 ;
+}
+.san{
+	width: 100%;
+	height: 512px;
+}
+.san .daohangzhong .qian{
+	width: 394px;
+	height: 512px;
+	background: white;
+	float: left;
+	margin-right: 59px;
+	text-align: center;
+}
+.san .daohangzhong .qian:hover{
+	transform:translateY(3px);
+	box-shadow:0 15px 30px rgba(0,0,0,0.1);
+	transition:all,0.5s;
+}
+.san .daohangzhong .yi{
+	margin-right: 0;
+}
+.san .daohangzhong .qian img{
+	width: 198px;
+	height: 228px;
+	display: block ;
+	margin: 60px auto  0 auto ;
+
+}
+.san .daohangzhong .qian h2{
+	margin-top: 36px;
+	font-size: 18px;
+}
+.san .daohangzhong .qian h4{
+	margin-top: 20px;
+	font-size: 12px;
+}
+.san .daohangzhong .qian h5{
+	margin-top: 60px;
+	color: red;
+	font-size: 12px;
+}
+.qizhang{
+	width:100% ;
+	height: 772px;
+	
+}
+.qizhang .daohangzhong .tu:hover{
+	transition:all,.5s;
+	transform:translateY(-3px);
+	box-shadow:0 15px 30px rgba(0,0,0,0.1);
+}
+.qizhang .daohangzhong .tu{
+	width: 292px;
+	height: 380px;
+	background: white;
+	margin-right: 44px;
+	margin-bottom: 12px;
+	float: left;
+	text-align: center;
+}
+.qizhang .daohangzhong .pq{
+	width:628px;
+	background: #ffe7e2;
+}
+.qizhang .daohangzhong .pinn{
+	margin-right: 0;
+}
+
+.qizhang .daohangzhong .tu img{
+	width: 133px;
+	height: 173px;
+	display: block;
+	margin: 42px auto 0 auto ;
+}
+.qizhang .daohangzhong .pq img{
+	width: 628px;
+	height: 380px;
+	margin-top: 0;
+}
+.qizhang .daohangzhong .tu h2{
+	margin-top: 25px;
+	font-size: 18px;
+}
+.qizhang .daohangzhong .tu h4{
+	margin-top: 18px;
+	font-size: 12px;
+}
+.qizhang .daohangzhong .tu h5{
+	margin-top: 30px;
+	color: red;
+	font-size: 12px;
+}
+.ping .qu h1{
+	margin-left: 327px;
+
+}
+.ba{
+	width: 100%;
+	height : 774px;
+	
+	
+}
+.ba .daohangzhong .aw{
+	width: 294px;
+	height: 380px;
+	background: white;
+	float: left;
+	margin-right: 41px;
+	margin-bottom: 14px;
+	text-align: center;
+}
+.ba .daohangzhong .aw:hover{
+	transition:all,.5s;
+	transform:translateY(-3px);
+	box-shadow:0 15px 30px rgba(0,0,0,0.1);
+}
+.ba .daohangzhong .bb{
+	margin-right: 0;
+}
+.ba .daohangzhong .aw img{
+	width: 162px;
+	height: 175px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 44px;
+}
+.ba .daohangzhong .aw h3{
+	margin-top: 24px;
+	font-size: 14px;
+}
+.ba .daohangzhong .aw h4{
+	margin-top: 18px;
+	font-size: 12px;
+}
+.ba .daohangzhong .aw h5{
+	margin-top: 30px;
+	color: red;
+	font-size: 12px;
+}
+.kong {
+	width: 100%;
+	height: 80px;
+}
+.bai {
+	width: 100%;
+	height: 118px;
+	background: white;
+	line-height:118px ;
+
+
+}
+.bai .daohangzhong a{
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	margin-right: 218px;
+
+}
+.bai .daohangzhong i{
+	margin-left: 38px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.bai .daohangzhong .cah{
+	margin-right: 0;
+}
+.xiaoo{
+	width: 100%;
+	height: 1px;
+	background: white;
+}
+.xiaoo .daohangzhong{
+	background: #dedede;
+}
+.baii{
+	width: 100%;
+	height: 330px;
+	background: white;
+}
+.baii .daohangzhong{
+	border-bottom: 1px solid #f2f2f2;
+	background: white;
+}
+.baii .daohangzhong .baise{
+	width: 92px;
+	height: 180px;
+	float: left;
+	margin-top: 72px;
+	margin-right: 108px;
+}
+.baii .daohangzhong .baise p{
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom:24px ;
+	color: #333333;
+}
+.baii .daohangzhong .baise a{
+	display: block;
+	font-size: 12px;
+	text-decoration: none;
+	color: #333333;
+	margin-bottom: 14px;
+
+}
+.baii .daohangzhong .baise a:hover{
+	color: blue;
+}
+  .baii .daohangzhong .mi{
+ 	width: 250px;
+ 	height: 145px;
+ 	
+ 	float: right;
+ 	margin-top: 72px;
+
+
+ }
+ .baii .daohangzhong .mi a{
+ 	text-decoration: none;
+ 	font-size: 24px;
+ 	font-weight: bold;
+ 	display: block;
+ 	margin-bottom: 28px;
+ 	float: right;
+ 	color: #008cd6;
+ 	
+
+ }
+ .baii .daohangzhong .mi h5{
+ 	margin-bottom: 18px;
+ 	color: #333333 ;
+ 	font-size: 24px;
+ 	float: right;
+ }
+ .baii .daohangzhong .mi p{
+ 	font-size: 12px;
+ 	color: #aaaaaa;
+ 	float: right;
+ }
+ .dii{
+ 	width: 100%;
+ 	height: 98px;
+ 	background: white;
+ }
+ .dii .daohangzhong p{
+ 	line-height: 98px;
+ 	display: inline;
+ 	color: #aaaaaa;
+ 	font-size: 12px;
+ }
+ .dii .daohangzhong a{
+ 	text-decoration: none;
+ 	color: #aaaaaa;
+ 	font-size: 10px;
+
+
+ }
+ .dii .daohangzhong .yanshe{
+ 	color: #aaaaaa;
+ 	font-size: 10px;
+ 	border-bottom: 2px;
+
+ }
+ 
+ 
+ .dii .daohangzhong .ya{
+ 	margin-left: 30px;
+ 	float: right;
+ 	line-height: 98px;
+ }
+ .dii .daohangzhong .yan{
+ 	float: right;
+ 	line-height: 98px;
+ 	margin-left: 30px;
+ 	font-size: 10px;
+ 	color: #aaaaaa;
+ }
+ .dii .daohangzhong .pp{
+
+	width: 16px;
+	height: 16px;
+	
+	margin-top: 41px;
+	
+	display: inline;
+
+
+ }
+ 
+.dii .daohangzhong img{
+	width: 16px;
+	height: 16px;
+
+	
+
+
+	
+	
+
+}
+
+ .pan{
+ 	width: 50px;
+ 	height: 100px;
+ 	
+ 	position: fixed;
+ 	bottom: 20px;
+ 	right: 0;
+
+
+ }
+ .pann{
+ 	width: 50px;
+ 	height: 50px;
+
+	 text-align: center;
+	 line-height: 50px;
+	 cursor: pointer;
+ }
+.pann i{
+	font-size: 26px;
+}
+.pann:hover{
+	background: #aaaaaa;
+}
+.pannn:hover{
+	background: #aaaaaa;
+}
+.pann:hover i{
+	color:#ff6700 ;
+}
+.pannn:hover i{
+	color:#ff6700 ;
+}
+.pannn i{
+	font-size: 26px;
+}
+ .pannn{
+ 	width: 50px;
+ 	height: 50px;
+	 cursor: pointer;
+	 text-align: center;
+	 line-height: 50px;
+ }

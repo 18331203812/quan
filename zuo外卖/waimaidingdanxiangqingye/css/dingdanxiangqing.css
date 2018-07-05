@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+.nav{
+    width: 100%;
+    height: 0.88rem;
+    background: #0ecf98;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.nav .left{
+    width: 0.38rem;
+    height: 0.88rem;
+    float: left;
+}
+.nav .right{
+    width: 0.91rem;
+    height: 0.88rem;
+    float: right;
+}
+.nav .left  img{
+    width: 0.38rem;
+    height: 0.88rem;
+
+    float: left;
+}
+.nav .right img{
+    width: 0.91rem;
+    height: 0.88rem;
+    float: right;
+}
+.banner{
+    width: 100%;
+    height: 1.02rem;
+    background: #0ecf98;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    margin-top: 0.88rem;
+    padding-top: 0.1rem;
+}
+.banner img {
+    width: 0.3rem;
+    height: 0.37rem;
+    display: block;
+    float: left;
+
+}
+.banner p{
+    font-size: 0.3rem;
+    color: #ffffff;
+    float: left;
+    margin-left: 0.1rem;
+    font-weight: bold;
+}
+.banner h1{
+    font-size: 0.3rem;
+    color: #fff;
+    float: right;
+    font-weight: normal;
+    margin-right: 0.1rem;
+}
+.banner .zuo img{
+    width: 0.14rem;
+    height: 0.24rem;
+    float: right;
+    margin-top: 0.08rem;
+
+}
+.banner  h6{
+    font-size: 0.2rem;
+    color: #fff;
+    float: left;
+    margin-left: 0.42rem;
+    margin-top: 0.06rem;
+}
+.bannertop{
+    width: 100%;
+    height: 1.02rem;
+    background: #0ecf98;
+
+}
+.bannertop     h6{
+    font-size: 0.2rem;
+    color: #fff;
+    float: left;
+    margin-left: 0.42rem;
+    margin-top: 0.06rem;
+}
+.bannertop .center{
+    width: 7rem;
+    height: 1.02rem;
+    margin-left: 0.24rem;
+    margin-right: 0.24rem;
+    padding-top: 0.15rem;
+    border-top: 0.01rem solid #fff;
+}
+.bannertop .center img{
+    width: 0.3rem;
+    height: 0.3rem;
+    display: block;
+    float: left;
+    margin-top: 0.07rem;
+}
+.bannertop .center p{
+    font-size: 0.3rem;
+    color: #ffffff;
+    float: left;
+    font-weight: bold;
+    margin-left: 0.1rem;
+}
+.bannertop .center .zuo img{
+    width: 0.14rem;
+    height: 0.24rem;
+    float: right;
+    margin-top: 0.1rem;
+}
+.bannertop .center h1{
+    font-size: 0.3rem;
+    color: #fff;
+    float: right;
+    font-weight: bold;
+    margin-right: 0.1rem;
+}
+.xian{
+    width: 100%;
+    height: 0.12rem;
+    background: #eeeeee;
+}
+.main{
+    width: 100%;
+    height: 0.96rem;
+
+}
+.main .center{
+    width: 7rem;
+    height: 100%;
+    font-weight: bold;
+    margin-left: 0.24rem;
+    margin-right: 0.24rem;
+    border-bottom: 0.01rem solid #eeeeee;
+    text-align: left;
+    line-height: 0.96rem;
+    font-size: 0.28rem;
+    color: #737373;
+}
+.main .center1{
+    width: 7rem;
+    height:1.2rem;
+
+    margin-left: 0.24rem;
+    margin-right: 0.24rem;
+    border-bottom: 0.01rem solid #eeeeee;
+    text-align: left;
+    font-size: 0.28rem;
+    color: #737373;
+    line-height: 1.2rem;
+}
+.main .center1  p{
+    font-size: 0.28rem;
+    color: #737373;
+    float: left;
+    font-weight: bold;
+}
+.main .center1 img{
+    width: 0.35rem;
+    height: 0.35rem;
+    display: block;
+    float: left;
+    margin-left: 2.5rem;
+    margin-top: 0.42rem;
+}
+.main .center1 h1{
+    font-weight: bold;
+    font-size: 0.34rem;
+    margin-left: 0.74rem;
+    float: left;
+}
+.main .center1 h6{
+    font-weight: bold;
+    font-size: 0.34rem;
+    color: #0ecf98;
+    float: right;
+}
+.center2{
+    width: 7rem;
+    height:3.2rem;
+    margin-left: 0.24rem;
+    margin-right: 0.24rem;
+    border-bottom: 0.01rem solid #eeeeee;
+}
+.center2 ul li{
+    width: 7rem;
+    height: 0.7rem;
+    list-style: none;
+    float: left;
+
+}
+.center2 ul li p{
+    font-size: 0.28rem;
+    color: #737373;
+    float: left;
+    margin-top: 0.35rem;
+    font-weight: bold;
+}
+.center2 ul li h1{
+    font-size: 0.28rem;
+    color: #0ecf98;
+    float: right;
+    margin-top: 0.35rem;
+}
+.center2 ul li  .wu{
+    color: #a9a9a9;
+    font-size: 0.18rem;
+    margin-top: 0.5rem;
+}
+.shifu{
+    width: 100%;
+    height: 1.16rem;
+    background: #fff;
+    margin-top: 4.4rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    line-height: 1.16rem;
+}
+.shifu p{
+    font-size: 0.28rem;
+    color: #737373;
+    float: left;
+    font-weight:bold;
+}
+.shifu h1{
+    font-size: 0.28rem;
+    color: #fc5c2f;
+    float: right;
+    font-weight:bold;
+}
+.code{
+    width: 100%;
+
+}
+.code ul li{
+    width: 7rem;
+    height: 1.12rem;
+    margin-left: 0.24rem;
+    margin-right: 0.24rem;
+    border-bottom: 0.01rem solid #eeeeee;
+    line-height: 1.12rem;
+}
+.code ul li:nth-child(4){
+    border-bottom: 0;
+
+}
+.code ul li p{
+    font-size: 0.28rem;
+    color: #737373;
+    float: left;
+    font-weight: bold;
+}
+.code ul li img{
+     width: 0.2rem;
+     height: 0.28rem;
+     float: right;
+     margin-top: 0.43rem;
+ }
+.code ul li h1{
+    font-size: 0.28rem;
+    float: right;
+   margin-right: 0.1rem;
+    font-weight: bold;
+    color: #cdcdcd;
+}
+
+.footer{
+    width: 100%;
+    height: 1rem;
+    background: white;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    margin-top: 2rem;
+    padding-top: 0.1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-shadow:0 0 0.3rem rgba(0,0,0,0.1);
+}
+.footer .yuan{
+
+    width: 0.9rem;
+    height: 0.9rem;
+    background-image: url(../img/gouw.png);
+    background-size:cover ;
+    float: left;
+    background-position:0.9rem;
+
+}
+.footer p{
+    font-size: 0.28rem;
+    float: left;
+    margin-top: 0.08rem;
+    margin-left: 0.26rem;
+    color: #7fd8b9;
+}
+.footer .jiesuan{
+    width: 1.6rem;
+    height: 0.63rem;
+
+    float: right;
+    margin-top: 0.1rem;
+    background-image: url(../img/jiesuan.png);
+    background-size:cover ;
+    background-position:1.6rem;
+}

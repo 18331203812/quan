@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 44px;
+    background: rgba(0,0,0,0.8);
+    padding: 0 180px;
+    line-height: 44px;
+    position: fixed;
+    top: 0 ;
+    left: 0;
+
+}
+.header ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.header ul li a{
+    font-size: 16px;
+    color: white;
+}
+.header ul li a:hover{
+    color: #bababa;
+}
+
+.header ul li:nth-child(1){
+    display: none;
+}
+
+.banner{
+    width:100% ;
+    height: 580px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 10px solid  #ffffff;
+    background:  #fafafa  url("../img/da1.jpg") no-repeat center  bottom -40px/1068px 337px;
+}
+.banner h1{
+    font-size: 42px;
+    margin-top:5% ;
+}
+.banner h3{
+    font-size: 26px;
+    margin:1%  0 ;
+    font-weight: normal;
+
+}
+.banner a{
+    font-size: 16px;
+
+    color: #0070c9;
+}
+.banner span{
+    font-size: 16px;
+
+    color: #0070c9;
+}
+.banner a:hover{
+    text-decoration: underline;
+}
+
+.iphone8{
+    width:100% ;
+    height: 580px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 10px solid  #ffffff;
+    background:  #f9f0eb  url("../img/zhong1.jpg") no-repeat center  bottom /527px 373px;
+}
+.iphone8 h1{
+    font-size: 42px;
+    margin-top:2% ;
+}
+.iphone8 h3{
+    font-size: 26px;
+    margin:0.5%  0 ;
+    font-weight: normal;
+}
+.iphone8 span{
+    font-size: 16px;
+    color: #0070c9;
+}
+.iphone8 a{
+    font-size: 16px;
+    color: #0070c9;
+}
+.iphone8 a:hover{
+    text-decoration: underline;
+}
+.ipad{
+    width:100% ;
+    height: 580px;
+    text-align: center;
+    overflow: hidden;
+
+    background:  #f5f5f5  url("../img/xai1.jpg") no-repeat center  bottom /930px 355px;
+}
+.ipad h1{
+    font-size: 42px;
+    margin-top:2% ;
+}
+.ipad h3{
+    font-size: 26px;
+    margin:0.5%  0 ;
+    font-weight: normal;
+}
+.ipad span{
+    font-size: 16px;
+    color: #0070c9;
+}
+.ipad a{
+    font-size: 16px;
+    color: #0070c9;
+}
+.ipad a:hover{
+    text-decoration: underline;
+}
+
+.main{
+    width: 100%;
+
+}
+.main .left{
+    width: 50%;
+    height: 590px;
+    background:  #eeeeee  url("../img/left1.jpg") no-repeat center  bottom /447px 395px;
+    border-top: 10px solid #fff;
+    border-left: 10px solid #fff;
+    float: left;
+    text-align: center;
+}
+.main .left i{
+    display: block;
+    font-size: 28px;
+    color: #000;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.main p{
+    font-size: 10px;
+    color: #cc1b1b;
+    font-weight: bold;
+}
+.main h1{
+    font-size: 16px;
+    color:#000;
+    font-weight: normal;
+    margin-top: 0.8%;
+}
+.main a{
+    font-size: 16px;
+    color: #0070c9;
+}
+.main span{
+    color: #0070c9;
+}
+
+
+.main .right{
+    width: 50%;
+    height: 590px;
+    background:    url("../img/right1.jpg") no-repeat center  bottom /1262px 580px;
+    border-top: 10px solid #fff;
+    border-left: 10px solid #fff;
+    border-right: 10px solid #fff;
+    float: left;
+    text-align: center;
+}
+.main .right span{
+    font-size: 30px;
+    display: block;
+    color: white;
+    font-weight: bold;
+    margin-top: 9%;
+}
+.main .right p{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+.section{
+    width: 100%;
+
+}
+.section  .left1{
+    width: 50%;
+    height: 590px;
+    background:  #eeeeee  url("../img/left11.jpg") no-repeat center  bottom /1262px 580px;
+    border-top: 10px solid #fff;
+    border-left: 10px solid #fff;
+    float: left;
+    text-align: center;
+}
+.section  .left1 i{
+    display: block;
+    font-size: 28px;
+    color: white;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.section  .left1 p{
+    font-size: 16px;
+    color:white;
+    font-weight: normal;
+    margin-top: 0.8%;
+}
+.section  .right1{
+    width: 50%;
+    height: 590px;
+    background:  #eeeeee  url("../img/right11.jpg") no-repeat center  bottom /1262px 580px;
+    border-top: 10px solid #fff;
+    border-left: 10px solid #fff;
+    border-right: 10px solid #fff;
+    float: left;
+    text-align: center;
+}
+.section  .right1 p{
+    font-size: 28px;
+    color: white;
+    margin-top: 5%;
+    font-weight: bold;
+    margin-bottom: 1.2%;
+}
+.section  .right1 span{
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+}
+.section  .right1 a{
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+}
+.code{
+    width: 100%;
+
+}
+.code .left2{
+    width: 50%;
+    height: 590px;
+    background:  #fafafa  url("../img/left21.jpg") no-repeat center  bottom 80px/385px 304px;
+    border-top: 10px solid #fff;
+    border-left: 10px solid #fff;
+    float: left;
+    text-align: center;
+}
+.code .left2 h1{
+    font-size: 42px;
+    margin-top:2% ;
+}
+.code .left2 h3{
+    font-size: 26px;
+    margin:0.5%  0 ;
+    font-weight: normal;
+}
+.code .left2 span{
+    font-size: 16px;
+    color: #0070c9;
+}
+.code .left2 a{
+    font-size: 16px;
+    color: #0070c9;
+}
+.code .left2 a:hover{
+    text-decoration: underline;
+}
+.code .right2{
+    width: 50%;
+    height: 590px;
+    background:  #fafafa  url("../img/right21.jpg") no-repeat center  bottom /382px 396px;
+    border-top: 10px solid #fff;
+    border-left: 10px solid #fff;
+    border-right: 10px solid #fff;
+    float: left;
+    text-align: center;
+}
+.code .right2 h1{
+    font-size: 42px;
+    margin-top:2% ;
+}
+.code .right2 h3{
+    font-size: 26px;
+    margin:0.5%  0 ;
+    font-weight: normal;
+}
+.code .right2 span{
+    font-size: 16px;
+    color: #0070c9;
+}
+.code .right2 a{
+    font-size: 16px;
+    color: #0070c9;
+}
+.code .right2 a:hover{
+    text-decoration: underline;
+}
+ .top{
+    width: 100%;
+
+    background: #f2f2f2;
+     float: left;
+     padding:0  270px ;
+}
+ .top  dl{
+     width: 20%;
+
+     float: left;
+ }
+.top  dt{
+    font-size: 16px;
+    color: #3a3333;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+.top  dt span{
+    display: none;
+}
+.top  dd{
+    font-size: 12px;
+    color: #74595d;
+    margin-bottom: 5px;
+}
+.top a:hover {
+    text-decoration: underline;
+}
+.top .footer{
+    width: 100%;
+    height: 110px;
+
+    float: left;
+    padding: 34px 0  21px 0;
+}
+.top .footer .footer-top{
+    width: 100%;
+    font-size: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d6d6d6;
+    color: #958889;
+    margin-bottom: 8px;
+}
+.top .footer .footer-top a{
+    color: #0076cb;
+}
+.top .footer .footer-bottom span{
+    font-size: 10px;
+    margin-right: 3%;
+    color: #958889;
+
+}
+.top .footer .footer-bottom a{
+    font-size: 10px;
+    color: #646974;
+    padding-right: 1%;
+    border-right: 1px solid #d6d6d6;
+    margin-right: 7px;
+}
+.top .footer .footer-bottom  .left{
+     float: right;
+     border: 0;
+     margin: 0 ;
+     padding: 0;
+ }
+.top .footer .footer-bottom  img{
+    width: 18px;
+    height: 18px;
+    float: right;
+}
+@media screen and  ( max-width: 1274px) {
+    .top {
+        padding: 0  88px;
+    }
+}
+@media screen and  ( max-width: 1070px) {
+    .header  {
+        padding: 0  15px;
+    }
+    .banner{
+        background:  #fafafa  url("../img/da2.jpg") no-repeat center  bottom -40px/736px 336px;
+    }
+    .iphone8 {
+        background: #f9f0eb url("../img/zhong1.jpg") no-repeat center bottom /527px 373px;
+    }
+    .ipad {
+        background:  #f5f5f5  url("../img/xai2.jpg") no-repeat center  bottom /650px 325px;
+    }
+    .main .left{
+        height: 500px;
+        background:  #eeeeee  url("../img/left2.jpg") no-repeat center  bottom /345px 328px;
+    }
+    .main .right{
+        height: 500px;
+        background:    url("../img/right2.jpg") no-repeat center  bottom /516px 490px;
+    }
+    .main .right span{
+        width: 250px;
+        margin: 0 auto;
+        margin-top: 9%;
+    }
+    .main .right p{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .section  .left1{
+        height: 500px;
+        background:  #eeeeee  url("../img/left12.jpg") no-repeat center  bottom /516px 490px;
+    }
+    .section  .right1{
+        height: 500px;
+        background:  #eeeeee  url("../img/right12.jpg") no-repeat center  bottom /516px 490px;
+    }
+    .code .left2{
+        height: 500px;
+        background:  #fafafa url("../img/left22.jpg") no-repeat center  bottom 80px/269px 212px;
+    }
+    .code .right2{
+        height: 500px;
+        background:  #fafafa url("../img/right22.jpg") no-repeat center  bottom /317px 331px;
+    }
+    .top{
+        padding: 40px  16px  0 ;
+        
+    }
+    .top dl{
+        width: 100%;
+
+    }
+
+    .top dt span{
+        display: block;
+        float: right;
+
+
+    }
+    .top dt{
+        height: 40px;
+        line-height: 32px;
+        margin: 0;
+        border-bottom: 1px solid #d6d6d6;
+        cursor: pointer;
+    }
+
+    .top dd{
+        display: none;
+    }
+    .top .footer .footer-bottom span{
+        display: block;
+
+    }
+    .top .footer .footer-bottom  .left{
+        float: right;
+        display: block;
+
+    }
+    .top .footer .footer-bottom  img{
+        display: block;
+        float: right;
+    }
+    .top .footer .footer-bottom a{
+        float: left;
+        display: block;
+        margin-top: 10px;
+    }
+
+}
+
+
+
+@media screen and  ( max-width: 735px) {
+    .header ul li.di {
+        display: none;
+    }
+
+    .header ul li.dier {
+        display: block;
+    }
+
+    .banner {
+        background: #fafafa url("../img/da3.jpg") no-repeat center bottom /320px 353px;
+    }
+
+    .iphone8 {
+        background: #f9f0eb url("../img/zhong2.jpg") no-repeat center bottom /320px 460px;
+
+    }
+    .ipad {
+        background:  #f5f5f5  url("../img/xai3.jpg") no-repeat center  bottom /228px 340px;
+    }
+    .main .left{
+        width: 100%;
+        border-left: 0;
+        background:  #eeeeee  url("../img/left3.jpg") no-repeat center  bottom /321px 346px;
+
+    }
+    .main .right{
+        width: 100%;
+        border-left: 0  ;
+        border-right: 0;
+        background:    url("../img/right3.jpg") no-repeat center  bottom /736px 548px;
+    }
+    .section  .left1{
+        width: 100%;
+        border-left: 0  ;
+        border-right: 0;
+        background:  #eeeeee  url("../img/left13.jpg") no-repeat center  bottom /736px 548px;
+    }
+    .section  .left1  p{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .section  .right1{
+        width: 100%;
+        border-left: 0  ;
+        border-right: 0;
+        background:  #eeeeee  url("../img/right13.jpg") no-repeat center  bottom /736px 548px;
+    }
+    .code .left2{
+        width: 100%;
+        border-left: 0  ;
+        border-right: 0;
+        background:  #fafafa url("../img/left23.jpg") no-repeat center  bottom 80px/244px 193px;
+    }
+    .code .right2{
+        width: 100%;
+        border-left: 0  ;
+        border-right: 0;
+        background:  #fafafa url("../img/right23.jpg") no-repeat center  bottom /331px 346px;
+    }
+    .top .footer .footer-bottom span{
+        display: block;
+        margin-top:40px ;
+    }
+    .top .footer{
+        position: relative;
+        height: 140px;
+    }
+    .top .footer .footer-bottom img{
+        position: absolute;
+        top: 70px;
+        left: 0;
+    }
+    .top .footer .footer-bottom .left{
+        position: absolute;
+        top: 70px;
+        left: 25px;
+    }
+}
